@@ -1,0 +1,72 @@
+﻿<!doctype HTML>
+<html lang = "pt/br">
+	<head>
+		<meta name="author" content="Ariel Fernandes-1700760">
+		<meta name="author" content="Gabriel Chaves-1700727">
+		<meta name="author" content="Maria Cecília-1700785">
+		<meta name="author" content="Victor de Freitas-1700741">
+		<meta name="author" content="Thiago Roldao-1520133">
+		<link type="text/css" href="estilo.css" rel="stylesheet"/>
+		<title>Matricule-se</title>
+		<h1><strong>Faculdade MAGTV</strong></h1>
+	</head>
+	<body>
+		<ul>
+			<menu><a href="index.html">Home</a></menu>
+			<menu><a href="cursos.html">Cursos</a></menu>
+			<menu><a href="formulario_matricula.html">Matricule-se</a></menu>
+			<menu><a href="noticias.html">Notícias</a></menu>
+			<menu><a href="aluno.html">Área do Aluno</a></menu>
+			<menu><a href="Professor.html">Área do Professor</a></menu>
+		</ul>
+		<center><h1>Cadastro</h1></center>
+		<form action="novousuário" method="post" id="novouser"></p>
+			<label for="nome">Nome Completo:</label></br>
+			<input class="cadd" type="text" name="nomecompleto"></br> 
+			</br>
+			<label for="sexo">Sexo:</label></br>
+			<input type="radio" name="genero" value="masculino" checked>Masculino</br>
+			<input type="radio" name="genero" value="feminino" checked>Feminino</br>
+			<input type="radio" name="genero" value="outro" checked>Outro</br>
+			</br>
+			<label for="datanasc">Data de Nascimento:</label></br>
+			<input type="date" name="datanasc"></br>
+			</br>
+			<label for="RG">RG (apenas números):</label></br>
+			<input type="number" name="RG" maxlength="9" size="9"></br>
+			</br>
+			<label for="CPF">CPF(apenas números):</label></br>
+			<input type="number" name="CPF" maxlength="11" size="11"></br>
+			</br>
+			<label for="email">E-mail:</label></br>
+			<input type="email" name="email"></br>
+			</br>
+			<label for="telefone">Telefone (Com DDD):</label></br>
+			<input type="number" name="telefone" maxlength="12" OnKeyPress="formatar('##-####-####')"></br>
+			</br>
+			<label for="curso">Curso:</label></br>
+			<input class="cadd" type="text" name="curso"></br>
+			</br>
+			<label for="endereco">
+			</br>Endereço:</br>
+			<input class="cadd" type="text" name="endereço"></br>
+			</br>
+			</br>Número:</br>
+			<input class="cadd" type="text" name="número"></br>
+			</br>
+			</br>Bairro:</br>
+			<input class="cadd" type="text" name="bairro"></br>
+			</br>
+			</br>Cidade:</br>
+			<input class="cadd" type="text" name="cidade"></br>
+			</br>
+			</br>Estado:</br>
+			<input class="cadd" type="text" name="estado"></br>
+			</label>
+			</br>
+			</br>		
+			<input type="submit" value="Enviar" method="post"></br></br>
+		</form>
+		<center><footer>&copy; Todos os direitos reservados 2017</footer></center>
+	</body>
+</html>
